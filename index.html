@@ -5,25 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pathanjali Flute Academy</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; background-color: #fcfcfc; }
-        header { background: #1a252f; color: #fff; padding: 3rem 1rem; text-align: center; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #ffffff; background-color: #1e3f20; }
+        header { background: #112513; color: #ffffff; padding: 3rem 1rem; text-align: center; }
         .logo-img { width: 100px; height: auto; margin-bottom: 1rem; border-radius: 8px; }
-        .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #fff; margin-bottom: 1rem; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #ffffff; margin-bottom: 1rem; }
         header h1 { margin: 0; font-size: 2.8rem; letter-spacing: 1px; }
-        header h3 { font-weight: 300; margin-top: 0.5rem; color: #ecf0f1; }
-        .quote { font-style: italic; color: #bdc3c7; margin-top: 1rem; font-size: 1.1rem; }
-        section { padding: 3rem 2rem; max-width: 900px; margin: auto; border-bottom: 1px solid #eaeaea; }
-        h2 { color: #2c3e50; font-size: 2rem; text-align: center; margin-bottom: 1.5rem; }
+        header h3 { font-weight: 300; margin-top: 0.5rem; color: #e8f5e9; }
+        .quote { font-style: italic; color: #a5d6a7; margin-top: 1rem; font-size: 1.1rem; }
+        section { padding: 3rem 2rem; max-width: 900px; margin: auto; border-bottom: 1px solid #2e5a31; }
+        h2 { color: #ffffff; font-size: 2rem; text-align: center; margin-bottom: 1.5rem; }
         .grid { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; }
-        .grid-item { flex: 1 1 45%; background: #fff; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-left: 5px solid #2980b9; }
+        .grid-item { flex: 1 1 45%; background: #28542b; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.2); border-left: 5px solid #f39c12; }
         .bio-content p { text-align: justify; margin-bottom: 1rem; }
         ul.honours-list { column-count: 2; column-gap: 2rem; list-style-type: none; padding: 0; }
-        ul.honours-list li { background: #f9f9f9; margin-bottom: 0.5rem; padding: 0.5rem 1rem; border-radius: 4px; border-left: 3px solid #e67e22; font-size: 0.9rem;}
-        footer { background: #2c3e50; color: #fff; text-align: center; padding: 3rem 1rem; }
-        .contact-info a { color: #3498db; text-decoration: none; }
+        ul.honours-list li { background: #28542b; margin-bottom: 0.5rem; padding: 0.5rem 1rem; border-radius: 4px; border-left: 3px solid #f39c12; font-size: 0.9rem;}
+        footer { background: #112513; color: #ffffff; text-align: center; padding: 3rem 1rem; }
+        .contact-info a { color: #f39c12; text-decoration: none; font-weight: bold; }
         .social-links { margin-top: 1.5rem; }
-        .social-links a { display: inline-block; margin: 0 15px; padding: 10px 20px; background: #34495e; color: #fff; text-decoration: none; border-radius: 4px; transition: background 0.3s; }
-        .social-links a:hover { background: #2980b9; }
+        .social-links a { display: inline-block; margin: 0 15px; padding: 10px 20px; background: #28542b; color: #ffffff; text-decoration: none; border-radius: 4px; transition: background 0.3s; }
+        .social-links a:hover { background: #f39c12; color: #112513; }
         
         @media (max-width: 768px) {
             ul.honours-list { column-count: 1; }
@@ -34,7 +34,6 @@
 <body>
 
     <header>
-        <!-- The logo and profile image are referenced here -->
         <img src="logo.jpeg" alt="Pathanjali Flute Academy Logo" class="logo-img">
         <br>
         <img src="Flute Sir.jpeg" alt="Vidwan Sri Chittoor K. Pathanjali" class="profile-img">
@@ -51,7 +50,8 @@
         </div>
     </section>
 
-    <section style="background-color: #f4f7f6;">
+    <!-- Removed the light background inline style here so it seamlessly matches the green -->
+    <section>
         <h2>Class Details</h2>
         <div class="grid">
             <div class="grid-item"><strong>Mode:</strong> Online</div>
@@ -60,7 +60,7 @@
             <div class="grid-item"><strong>Fee:</strong> INR 500 per class for Indian students | $20 per class for overseas students</div>
             <div class="grid-item"><strong>Schedule:</strong> Flexible; arranged at mutual convenience</div>
             <div class="grid-item"><strong>Language:</strong> Tamil, Telugu or English, as preferred by the student</div>
-            <div class="grid-item"><strong>Suitable For:</strong> All age groups</div>
+            <div class="grid-item" style="flex: 1 1 100%;"><strong>Suitable For:</strong> All age groups</div>
         </div>
     </section>
 
